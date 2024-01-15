@@ -42,6 +42,7 @@ const initialFormState = {
                   placeholder="Name"
                   onChange={handleChange}
                   value={formData.name}
+                  required={true}
                 />
               </label>
             </td>
@@ -54,6 +55,7 @@ const initialFormState = {
                   placeholder="Cuisine"
                   onChange={handleChange}
                   value={formData.cuisine}
+                  required={true}
                 />
               </label>
             </td>
@@ -78,6 +80,7 @@ const initialFormState = {
                   placeholder="Ingredients"
                   onChange={handleChange}
                   value={formData.ingredients}
+                  required={true}
                 />
               </label>
             </td>
@@ -90,6 +93,7 @@ const initialFormState = {
                   placeholder="Preparation"
                   onChange={handleChange}
                   value={formData.preparation}
+                  required={true}
                 />
               </label>
             </td>
